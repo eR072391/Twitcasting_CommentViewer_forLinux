@@ -59,7 +59,7 @@ class View:     #アプリケーションのユーザーインターフェース
         textbox.pack()
         
         def get_comments():
-            print("debug1")
+            #print("debug1")
             url = f"https://apiv2.twitcasting.tv/movies/{self.model.movie_id}/comments?offset=0&limit=1"
             
             ACCESS_TOKEN = self.model.ACCESS_TOKEN
